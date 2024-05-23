@@ -61,8 +61,69 @@
 // }
 
 
-largeCountries.pop()
-largeCountries.push("Pakistan")
-largeCountries.shift()
-largeCountries.unshift("China")
-console.log(largeCountries)
+// largeCountries.pop()
+// largeCountries.push("Pakistan")
+// largeCountries.shift()
+// largeCountries.unshift("China")
+// console.log(largeCountries)
+
+// let dayOfMonth = 13;
+// let weekday = "Friday";
+// if ("Friday" && 13) {
+//     console.log(":hankey:")
+// }
+// or
+// if (weekday === "Friday" && dayOfMonth=== 13) {
+//     console.log(":hankey:")
+// }
+// let hands = ["rock", "paper", "scissor"];
+// let randomIndex = Math.floor(Math.random() * hands.length);
+// let randomHand = hands[randomIndex];
+// console.log(randomHand);
+// or
+// function getHand() {
+//     let randomIndex = Math.floor(Math.random() * hands.length);
+//     return hands[randomIndex]
+// }
+// console.log(getHand)
+// let color = ["white", "blue", "black", "green", "red"]
+// function colorRandom() {
+//     let randomIndex = Math.floor(Math.random() * color.length);
+//     return color[randomIndex]
+// }
+// console.log(colorRandom())
+// let piece = ["blue", "red", "red", "blue", "red"]
+// let blueShelf = document.getElementById("blue-shelf")
+// let redShelf = document.getElementById("red-shelf")
+// function sortPieces() {
+//     blueShelf.textContent = '';
+//     redShelf.textContent = '';
+//     for (let i = 0; i < piece.length; i++) {
+//         if (piece[i] === "blue") {
+//             blueShelf.textContent += piece[i] + ' ';
+//         } else if (piece[i] === "red") {
+//             redShelf.textContent += piece[i] + ' ';
+//         }
+//     }
+// }
+// sortPieces()
+
+// <html>
+//     <head>
+//         <link rel="stylesheet" href="index.css">
+//     </head>
+//     <body>
+//         <div id="box">Open the box!</div>
+//         <script src="index.js"></script>
+//     </body>
+// </html
+
+/* 1. Grab the box from the DOM and store it in a variable
+   2. Add a click event listener to the box
+   3. Log out "I want to open the box!" when it's clicked*/
+
+   let box = document.getElementById("box")
+
+   box.addEventListener("click", function(){
+    console.log("I want to open the box!")
+   })
