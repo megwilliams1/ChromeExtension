@@ -132,16 +132,40 @@
 // myLeads -> should be assigned to an empty array
 // inputEl -> should be assigned to the text input field
 
-   const basePrice = 520
-   const discount = 120
-   let shippingCost = 12
-   let shippingTime = "5-12 days"
+   // const basePrice = 520
+   // const discount = 120
+   // let shippingCost = 12
+   // let shippingTime = "5-12 days"
 
-   shippingCost = 15
-   shippingTime = "7-14 days"
+   // shippingCost = 15
+   // shippingTime = "7-14 days"
 
-   const fullPrice = basePrice - discount + shippingCost
+   // const fullPrice = basePrice - discount + shippingCost
 
-   console.log("Total cost: " + fullPrice + ". It will arive in " + shippingTime)
+   // console.log("Total cost: " + fullPrice + ". It will arive in " + shippingTime)
 
    
+// -use .innerHTML to render a Buy! button inside the dive container
+
+// const container = document.getElementById("container")
+// container.innerHTML = "<button onclick='buy()'>Buy!<button>"
+
+// when clicked, render a paragraph under the button (in the container)
+// that says "Thank you for buying"
+
+// function buy() {
+//    container.innerHTML = "<p>Thank you for buying!</p>"
+// }
+
+// // create element 
+// document.createElement("li")
+// // store in variable
+// const li = document.createElement("li")
+// //set text content
+// li.textContent = myLeads[i]
+// // append to ul
+// ulEl.append(li)
+
+// const li = document.createElement("li")
+// li.textContent = myLeads[i]
+// ulEl.append(li)
