@@ -170,8 +170,10 @@
 // li.textContent = myLeads[i]
 // ulEl.append(li)
 
-const recipient = "James"
-const sender = "Megan"
-const email = `Hey ${recipient}!  How is it going? Cheers ${sender}`
+// const recipient = "James"
+// const sender = "Megan"
+// const email = `Hey ${recipient}!  How is it going? Cheers ${sender}`
 
-console.log(email)
+// console.log(email)
+
+// localStorage.setItem("myLeads", JSON.stringify(myLeads))
