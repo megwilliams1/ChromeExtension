@@ -166,6 +166,10 @@
 // // append to ul
 // ulEl.append(li)
 
+// localStorage.setItem("myName", "Megan")
+// localStorage.getItem("myName")
+// localStorage.clear()
+
 // const li = document.createElement("li")
 // li.textContent = myLeads[i]
 // ulEl.append(li)
@@ -177,3 +181,40 @@
 // console.log(email)
 
 // localStorage.setItem("myLeads", JSON.stringify(myLeads))
+
+
+
+// console.log([0])
+// console.log(-0)
+
+// const welcomeEl = document.getElementById("welcome-el")
+
+// // **Give the function a parameter, greeting, that replaces "Welcome back"**
+
+// function greetUser(greeting, name, emoji) {
+//    welcomeEl.textContent = `${greeting}, ${name} ${emoji}`
+// }
+
+// greetUser("Greetings", "Megan", "💌")
+
+// **create a function, add(), that adds two numbers together & returns the sum**
+
+// function add(num1, num2) {
+//    return num1 + num2
+// }
+
+// console.log( add(3, 4)  )
+// console.log( add(9, 102) )
+
+// **create a function, getFirst(arr), that returns the first item in the Array.apply
+
+// **call it with an array as an argument to clarify that it ServiceWorkerRegistration.
+
+
+function getFirst(arr) {
+   return arr[0]
+}
+
+ let firstCard = getFirst([10, 2, 5])
+ 
+ console.log(firstCard)
